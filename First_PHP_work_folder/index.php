@@ -37,6 +37,18 @@ echo "My Name is <br>" . $name;
 $username = $_POST["username"];
 echo $username;
 
+// control STATEMENT
+$age = 10;
+ if($age >= 18){
+    echo "Age is" . $age . " This is an Adult";
+    }
+    else{
+        echo "That is a Minor";
+    }
+
+
+    If...
+
 ?>
 </body>
 </html>
